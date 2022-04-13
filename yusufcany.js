@@ -8,7 +8,7 @@ var ww = require('word-wrap');
 var iq = require('inquirer');
 var opn = require('open');
 
-got('https://user-images.githubusercontent.com/55593600/163211644-7e0851bd-dbd8-40c6-b085-05965cb9988f.jpeg', {responseType:'buffer'})
+got('https://user-images.githubusercontent.com/55593600/163213137-4c31a9b0-ceba-46b0-b64c-bf540cea13a3.png', {responseType:'buffer'})
 .then(function (image) { return img.buffer(image.body, {width: '40%'}) })
 .then(function (image) {
 

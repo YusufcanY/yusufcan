@@ -1,9 +1,9 @@
 {
   "name": "yusufcany",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "About Yusufcan Yilmaz",
   "bin": {
-    "coskuncay": "yusufcany.js"
+    "yusufcany": "yusufcany.js"
   },
   "repository": {
     "type": "git",
