@@ -8,7 +8,7 @@ var ww = require('word-wrap');
 var iq = require('inquirer');
 var opn = require('open');
 
-got('https://avatars.githubusercontent.com/u/55593600?v=4', {responseType:'buffer'})
+got('https://user-images.githubusercontent.com/55593600/163211644-7e0851bd-dbd8-40c6-b085-05965cb9988f.jpeg', {responseType:'buffer'})
 .then(function (image) { return img.buffer(image.body, {width: '40%'}) })
 .then(function (image) {
 
@@ -28,9 +28,9 @@ iq.prompt([
     message: 'Do you want to learn more about me?',
     name: 'open',
     choices: [
-      { name: c.gray(`💻  What am I doing about Open Source? (${c.bold('GitHub')})`), value: 'https://github.com/yusufcany' },
+      { name: c.gray(`💻  What i am doing right now? (${c.bold('GitHub')})`), value: 'https://github.com/yusufcany' },
       { name: c.cyan(`🐦  Other socials? (${c.bold('Linktree')})`), value: 'https://linktr.ee/yusufcany' },
-      { name: c.blue(`🏹  Curriculum vitae, the path of my life (${c.bold('LinkedIn')})`), value: 'https://www.linkedin.com/in/yusufcan-yilmaz/' },
+      { name: c.blue(`🏹  My goals and my path (${c.bold('LinkedIn')})`), value: 'https://www.linkedin.com/in/yusufcan-yilmaz/' },
       { name: c.red('👋  Nope. Bye.\n'), value: false }
     ]
   }

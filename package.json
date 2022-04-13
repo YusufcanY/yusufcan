@@ -1,6 +1,6 @@
 {
   "name": "yusufcany",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "About Yusufcan Yilmaz",
   "bin": {
     "coskuncay": "yusufcany.js"
